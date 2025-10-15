@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Editor directories and files
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Flask specific
+instance/
+.flaskenv
+
+# dotenv files
+.env
+.flaskenv
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Database
+*.db
+
+*.idea
+*.db
