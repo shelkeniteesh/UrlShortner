@@ -1,3 +1,3 @@
-from url_shortner_service import URLShortService
+from .url_shortner_service import URLShortnerService
 
-__all__ = ['URLShortService']
+__all__ = ['URLShortnerService']
