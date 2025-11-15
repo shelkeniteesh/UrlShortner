@@ -31,14 +31,3 @@ class Database:
         """
         Placeholder to keep the API compatible; connections are short-lived.
         """
-
-def get_database() -> Database:
-    """
-    Dependency to provide a Database instance.
-    Ensures the connection is closed after the request.
-    """
-    db = Database()
-    try:
-        yield db
-    finally:
-        db.close()
